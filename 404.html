@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+      let fourofour_book_location = 'https://jsolink.github.io/404shortjs/book.json' // your redirect data path
+      let fourofour_defaultLink = 'https://www.sk5s.cyou/' // redirect to default when error
+      let fourofour_defaultLink_delay = 6 // how many seconds you want to stay on this page not redirect to default link when user go to 404 page.
+      function not_found(){
+        document.body.innerHTML += `
+          <h2 class="need_to_hide">404 Not Found</h2>
+          <h3 class="need_to_hide">找不到此頁面</h3>
+          <p class="need_to_hide">You will be redirect to default page after 6s.</p>
+        `
+      }
+    </script>
+    <script src="https://jsolink.github.io/404shortjs/index.js" defer></script>
+  </body>
+</html>
