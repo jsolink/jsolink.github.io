@@ -1,5 +1,6 @@
 ---
 title: JSOLINK
+permalink: /
 ---
 
 # JSOLINK
