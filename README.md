@@ -1,3 +1,7 @@
+---
+title: JSOLINK
+---
+
 # JSOLINK
 
 ## [404shortjs](https://git.io/404shortjs)
